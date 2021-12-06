@@ -13,6 +13,6 @@ I needed to quickly get all the recipes in one place, so I decided to build a we
 
 You can change the database url depending on your needs
 ```sh
-docker build -t NWCookingDB .
-docker run -e DATABASE_URL="mysql://root:psw@127.0.0.1:3306/db" NWCookingDB
+docker build -t nwcookingdb .
+docker run -e DATABASE_URL="mysql://root:psw@127.0.0.1:3306/db" nwcookingdb
 ```
