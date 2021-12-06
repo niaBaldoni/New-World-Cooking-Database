@@ -5,9 +5,9 @@ I needed to quickly get all the recipes in one place, so I decided to build a we
 
 ## Requirements
 
+- [Python] - I used the 3.9.7 version
 - [MySQL] - The output will be a MySQL database
 - [Docker] - The program is very easy to install and deploy in a Docker container.
-- [Python] - I used the 3.9.7 version
 
 ## Installation
 
