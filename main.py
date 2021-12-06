@@ -377,7 +377,7 @@ def insertGatherables(headers):
         url = requests.get("https://nwdb.info/db/" + c + ".json", headers=headers)
         gat_json = url.json()
         gatherable = Gatherables(gat_json["data"]["id"], gat_json["data"]["type"], gat_json["data"]["name"], 
-            gat_json["data"]["rarity"], gat_json["data"]["requiredTSLvl"])
+            gat_json["data"]["rarity"], gat_json["data"]["requiredTradeskillLevel"])
 
         # Check if tradeskill is needed to gather
         ts = gat_json["data"]["Tradeskill"]
