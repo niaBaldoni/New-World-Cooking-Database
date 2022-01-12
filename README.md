@@ -3,6 +3,8 @@
 
 I needed to quickly get all the recipes in one place, so I decided to build a web scraper that creates a database of everything needed to craft every recipe in the game.
 
+The scraper first retrieves every recipe, then it cycles through every recipe to retrieve information about every item required (where to obtain it and in what quantities). This way, it's possible to execute simple queries on the resulting Database to see how many of each item is required to craft a certain amount of the desired food, and where to find them.
+
 ## Requirements
 
 - [Python] - I used the 3.9.7 version
